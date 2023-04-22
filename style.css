@@ -1,0 +1,295 @@
+body {
+    margin: 0 auto;
+}
+#image {
+    position: relative;
+    text-align: center;
+}
+#thank {
+    /* top: 98%; */
+    /* left: 50%; */
+    font-size: 10px;
+    color: white;
+    font-family:  "Times New Roman", Times, serif;
+    text-align: center;
+}
+#thank div {
+    
+    position: relative;
+    z-index: 1;
+    top: -82px;
+}
+h1 {
+    text-align: center;
+
+
+}
+/*პირველი ნაწილის დასარული*/
+#text {
+    text-align: center;
+   
+    width: 800px;
+    margin:0 auto;
+}
+#left{
+    text-align: justify;
+}
+.camera {
+    display: flex;
+    justify-content: center;
+}
+.cameraText1 {
+    display:inline-block;
+    padding-left: 450px;
+
+}
+.cameraText2, .cameraText3 {
+    display:inline-block;
+    padding-left: 120px;
+}
+
+#love{
+    font-style: oblique;
+    color: #646363;
+}
+/*მეორე ნაწილის დასარული*/
+#threePics {
+   
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+   padding-left: 180px;
+   padding-bottom: 80px;
+   
+   
+}
+.buttun {
+    color: #fff;
+    background-color: black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#mega {
+    display:inline-block;
+    padding-left: 132px;
+    margin-top: 30px;
+    
+}
+#pariz {
+
+    display:inline-block;
+    padding-left: 10px;
+    
+    
+}
+#bridge {
+    display:inline-block;
+    padding-left: 10px;
+   
+}
+ #firstText{
+    
+    display:inline-block;
+    margin-top: -10px;
+    margin-left: 150px;
+    font-size: 11px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 180PX;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    font-weight: 400;
+    
+}
+#secontText {
+    display:inline-block;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 11px;
+    width: 180PX;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#thirdText {
+    display:inline-block;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 11px;
+    width: 180PX;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    font-weight: 400; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div #firstText  p:first-of-type, div #secontText  p:first-of-type ,div #thirdText  p:first-of-type 
+
+{
+    color:#646363; 
+}
+#fill {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin-left: 150px;
+}
+.border {
+    border-bottom: 1px ridge #646363;
+    background-color: #fff;
+    color: #646363;
+    font-size: 12px;
+    height: 20px;
+}
+span {
+    background-color: red;
+    color:#fff;
+}
+#number {
+    display: inline;
+    color:#fff;
+    background-color: #000000;
+    position: relative;
+    left: 700px;
+    top: -170px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-left: 6px;
+}
+
+
+
+.sat {
+    display: inline-block;
+    color: #fff;
+    margin: top 5px;
+    margin-left: 350px;
+}
+.book {
+    display: block;
+    margin: top 5px;
+    margin-left: 330px;
+    color:#646363;
+    font-style: italic;
+    font-weight: 700;
+}
+/* მესამე ნაწილის დასასრული*/
+#subsc {
+    display: inline-block;
+    width: 300px;
+}
+#sat {
+    display: inline-block;
+    color: #000000;
+    margin: top 5px;
+    margin-left: 570px;
+}
+#book {
+    display: block;
+    margin-left: 590px;
+    color:#646363;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 0.6em;
+}
+#contact {
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    margin-left: 400px;
+    padding-top: 50px;
+  
+
+    
+}
+#subsc {
+    display: inline-block;
+
+}
+#nameFlex
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 700px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    
+}
+#name, #Email {
+    font-size: 12px;;
+    width: 150px;
+    height: 25px;
+    border:1px solid #362f2f5f;
+    text-decoration: none;
+    
+}
+
+
+
+
+#mail {
+    margin-left: 10px;
+}
+#massege
+{
+    margin-left: 700px;
+    margin-top: 5px;
+    width: 200px;
+    
+    
+}
+textarea {
+    resize: none;
+    text-align: left;
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid #362f2f5f;
+    width: 327px;
+}
+#submit {
+    display: block;
+    margin-left: 980px;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: black;
+}
+/*მეთხე თავის დასასრული*/
+#location {
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+#social {
+    display: flex;
+    justify-content: center;
+    padding-left: 3px;
+}
+
+.power {
+    text-align: center;
+    color:#362f2fb6;
+    padding-left: 590px;
+    text-decoration: none;
+    
+    font-size: smaller;
+   
+    margin: 0 auto;
+    width: 60%;
+   
+    
+    font-size:10px;
+}
+a[href^="tel"], a[href^="mail"] 
+{
+    text-decoration: none;
+    color: #000000be;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
